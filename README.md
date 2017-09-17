@@ -11,7 +11,15 @@ or if you prefer Yarn
 `yarn add angular-sweetalert-service`
 
 ### Include in your app
-
+In angular-cli.json include css and js files for sweetalert2
+```js
+"styles": [
+  "../node_modules/sweetalert2/dist/sweetalert2.min.css",
+],
+"scripts": [
+  "../node_modules/sweetalert2/dist/sweetalert2.min.js"
+]
+```
 In your `app.module` just include the service
 
 ```js
